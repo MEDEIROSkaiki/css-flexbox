@@ -337,3 +337,41 @@ hr {
             height: 500px;
         }
        
+        .container-aling-content-center{
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           align-content: center;
+           /*indiferente*/
+           background-color: antiquewhite;
+           padding: 16px;
+           height: 500px;
+        }
+
+            .container-aling-content-flex-start{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                /*indiferente*/
+                background-color: antiquewhite;
+                padding: 16px;
+                height: 500px;
+            }
+
+            .container-aling-content-flex-end{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                align-content: flex-end;
+                /*indiferente*/
+                background-color: antiquewhite;
+                padding: 16px;
+                height: 500px;
+            }
